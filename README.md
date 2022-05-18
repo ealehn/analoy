@@ -1,3 +1,17 @@
+### STARTING
+## REQUIREMNTS
+Download and Install node 
+
+## Steps
+1. Create a folder with name 'ANALOY-PROJECT'
+2. Run the code below to create a
+    'npx create-react-app analoy'
+    This will download and install 'create-react-app'
+
+3. To run the application, run the code below
+    'npm start'
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
