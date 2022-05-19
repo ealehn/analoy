@@ -1,0 +1,74 @@
+
+.top-side-pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 400px;
+    padding-top: 30px;
+    color: #ccc;
+    background-color: #2a2a2a;
+    font-family: "Sora", sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: none;
+  }
+
+.top-side-pane .text-container {
+    position: relative;
+    margin: 40px;
+    font-size: 1rem;
+  }
+
+
+ .top-side-pane .text-container::before {
+    content: "HOVER IT";
+    position: absolute;
+    top: -60px;
+    font-size: 1rem;
+    font-variation-settings: "wght" 300;
+    letter-spacing: 0.25rem;
+    opacity: 0.25;
+  }
+
+ .top-side-pane .text-container::after {
+    content: "- Linus Torvalds";
+    font-size: 0.875rem;
+    font-variation-settings: "wght" 300;
+    text-transform: none;
+  }
+
+ .top-side-pane .text-container h1 span {
+    transition: 250ms;
+  }
+
+
+ .top-side-pane .custom-pointer {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #777;
+    box-shadow: 0 0 0 5px #2a2a2a, 0 0 0 6px #777;
+    transition: 100ms;
+  }
+
+  
+@media only screen and (max-width: 425px) {
+
+    .top-side-pane {
+      cursor: auto;
+    }
+
+    .top-side-pane .text-container {
+      margin: 20px;
+    }
+  
+    .top-side-pane .custom-pointer {
+      display: none;
+    }
+
+  }

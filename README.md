@@ -11,6 +11,9 @@ Download and Install node
 3. To run the application, run the code below
     'npm start'
 
+4. To build the appliation, run the code below
+    'npm run build'
+
 
 # Getting Started with Create React App
 
